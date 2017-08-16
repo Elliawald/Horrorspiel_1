@@ -3,5 +3,5 @@
 
 spd = 4;
 n_spd = 4;
-r_spd = 6;
+r_spd = 8;
 image_speed=1;

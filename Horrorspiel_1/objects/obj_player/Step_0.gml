@@ -13,8 +13,10 @@ moveX	=	0;
 moveY	=	0;
 
 if(input_run){
+	image_speed = 4;
 	spd = r_spd;
 }else{
+	image_speed = 1;
 	spd = n_spd;
 }
 
@@ -30,7 +32,7 @@ if(moveX != 0){
 	if(place_meeting(x+moveX, y, obj_collision)){
 		repeat(abs(moveX)){
 				if(!place_meeting(x+sign(moveX), y, obj_collision)){
-				x += sign(moveX);
+				x += sign(moveX);							
 			}
 			else{
 				break;
@@ -53,6 +55,27 @@ if(moveY != 0){
 		moveY = 0;
 	}
 }
+
+if(moveX != 0 || moveY != 0){
+	if(sign(moveX) == 1){
+		sprite_index = spr_walk_right;
+	}
+	if(sign(moveX) == -1){
+		sprite_index = spr_walk_left;
+	}
+	if(sign(moveY) == 1){
+		sprite_index = spr_walk_down;
+	}
+	if(sign(moveY) == -1){
+		sprite_index = spr_walk_up;
+	}
+}
+else{
+	image_index = 0;
+}
+
+
+
 
 x += moveX; // same as x=x+moveX
 y += moveY;
