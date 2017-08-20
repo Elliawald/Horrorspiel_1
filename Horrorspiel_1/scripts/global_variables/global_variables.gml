@@ -1,0 +1,1 @@
+global.talk = false;
