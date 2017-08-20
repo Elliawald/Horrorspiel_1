@@ -1,8 +1,6 @@
 /// @description 
 myTextbox = noone;
 
-moveX = 0;
-moveY = 0;
 
 var idle = choose(0,1);
 if(idle == false){
