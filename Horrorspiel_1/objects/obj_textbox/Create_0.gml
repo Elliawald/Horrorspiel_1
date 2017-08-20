@@ -18,3 +18,5 @@ charCount = 0;
 page = 0;
 
 name = noone;
+
+global.talk = true;

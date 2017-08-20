@@ -1,34 +1,29 @@
+/// @description Insert description here
+// You can write your code in this editor
 /// @description Move the player
-
-input_left	=	keyboard_check(ord("A"));
-input_right	=	keyboard_check(ord("D"));
-input_up	=	keyboard_check(ord("W"));
-input_down	=	keyboard_check(ord("S"));
-input_run	=	keyboard_check(vk_shift);
-
 
 collision = 0;
 
-moveX	=	0;
-moveY	=	0;
-
+if(place_meeting(x, y, obj_player)){
+		if(keyboard_check_pressed(vk_space)){
+			if(myTextbox == noone){
+				myTextbox = instance_create_layer(x,y, "Inst_text",obj_textbox);
+				myTextbox.text = myText;
+				myTextbox.creator = self;
+				myTextbox.name = myName;
+			}
+		}	
+}else{
+	if(myTextbox != noone){
+		
+		instance_destroy(myTextbox);	
+		myTextbox = noone;
+	}
+		
+}
 
 
 if(global.talk == false){
-		if(input_run){
-		image_speed = 4;
-		spd = r_spd;
-	}else{
-		image_speed = 1;
-		spd = n_spd;
-	}
-
-	if(moveY == 0){
-		moveX	=	(input_right - input_left) * spd;
-	}
-	if(moveX == 0){
-		moveY	=	(input_down - input_up) * spd;
-	}
 
 
 	if(moveX != 0){

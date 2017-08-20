@@ -5,3 +5,13 @@ myName = ""
 
 myText[0] = "";
 
+
+spd = 4;
+
+image_speed=1;
+
+moveX = 0;
+moveY = 0;
+
+alarm[1] = 1;
+

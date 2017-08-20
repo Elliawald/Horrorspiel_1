@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "7e702748-d7e5-405f-8fc2-93e444a95e63",
+            "Value": {
+                "id": "8d5f78c0-f69a-49d3-acf0-cfcd11537b9a",
+                "resourcePath": "sprites\\spr_shadow\\spr_shadow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "80df5be7-fbd5-4174-93c9-5c889a2e430e",
             "Value": {
                 "id": "a23c68d9-3a3e-42f3-b3bd-96d80082a674",
@@ -218,7 +226,7 @@
             "Key": "a539c2f8-4536-43e8-b5e9-fb0702d557a0",
             "Value": {
                 "id": "dc5bbdc9-db24-4baa-9757-d5065c5cf2d1",
-                "resourcePath": "scripts\\global_variables\\global_variables.yy",
+                "resourcePath": "scripts\\scr_global_variables\\scr_global_variables.yy",
                 "resourceType": "GMScript"
             }
         },
