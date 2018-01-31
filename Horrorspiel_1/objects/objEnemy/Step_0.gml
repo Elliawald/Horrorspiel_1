@@ -5,7 +5,7 @@ if(place_meeting(x+hsp,y,objWall)){
 	while(!place_meeting(x+sign(hsp),y,objWall)){
 		x = x +sign(hsp);
 	}
-	hsp = 0;
+	hsp = -hsp;
 }
 
 

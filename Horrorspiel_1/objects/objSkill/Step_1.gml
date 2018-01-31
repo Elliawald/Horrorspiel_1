@@ -10,7 +10,7 @@ recoil = max(0,recoil-1); //reduce to 0 but dont go over
 
 if(mouse_check_button(mb_left) && firingdelay < 0){
 	recoil = 4;
-	firingdelay = 30;
+	firingdelay = 10;
 	with(instance_create_layer(x,y,"Bullets",objBullet)){
 		 speed = 15;
 		 direction = other.image_angle + random_range(-3,3); //gun angle

@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "03fe0bbf-83e0-418f-9eb2-9235a9fd1510",
+            "Value": {
+                "id": "53c76dec-2617-49dd-a611-7a36ca748166",
+                "resourcePath": "objects\\objCamera\\objCamera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "04ee3d67-abc0-4718-acde-59d8f989fb6d",
             "Value": {
                 "id": "61a2eae4-a5cb-4d9c-b1b2-4be58df27e22",
@@ -52,6 +60,14 @@
                 "id": "51a00641-e33a-4af8-827a-8ae21abae9c3",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "24f87072-20c7-4914-886b-534f5e107b49",
+            "Value": {
+                "id": "241135bc-9f73-4d53-94c9-28598859e6d6",
+                "resourcePath": "objects\\objDead\\objDead.yy",
+                "resourceType": "GMObject"
             }
         },
         {
