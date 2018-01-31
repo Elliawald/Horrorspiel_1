@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "11ae0f6d-6546-4227-8b2a-cb5dcd467946",
+            "Value": {
+                "id": "a1268199-7935-4ba3-bc90-0b3129ed777a",
+                "resourcePath": "sprites\\sprBullet\\sprBullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1b6ddd82-05d8-4716-ae73-dc9a9f85c2c1",
             "Value": {
                 "id": "51a00641-e33a-4af8-827a-8ae21abae9c3",
@@ -87,6 +95,14 @@
             }
         },
         {
+            "Key": "45bb3933-9530-43f0-9700-0c185697d55b",
+            "Value": {
+                "id": "b1df1d6b-7752-495c-bc7b-ef3dd4e3a0e1",
+                "resourcePath": "objects\\objSkill\\objSkill.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4a9680f9-5d70-4ee1-9b74-d619fe483113",
             "Value": {
                 "id": "36189f1c-c18c-4e95-8873-695ca44e16d3",
@@ -132,6 +148,14 @@
                 "id": "474dfc30-671a-40cc-8f71-412feb6e7460",
                 "resourcePath": "sprites\\sprPlayerR\\sprPlayerR.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a17c1ce4-abe1-4542-8dea-f11827c35f54",
+            "Value": {
+                "id": "e2f1712d-7e8c-4760-9e4f-6cb3fd8af0f4",
+                "resourcePath": "objects\\objBullet\\objBullet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
