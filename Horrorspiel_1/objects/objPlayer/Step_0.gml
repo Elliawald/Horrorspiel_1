@@ -3,6 +3,7 @@ key_right = keyboard_check(vk_right);
 key_up = keyboard_check_pressed(vk_space);
 //key_down = keyboard_check(vk_down);
 
+//Movement
 var move = key_right - key_left;
 
 hsp = move * walksp;
@@ -33,3 +34,19 @@ if(place_meeting(x,y+vsp,objWall)){
 
 
 y = y + vsp;
+
+//Animation
+if(!place_meeting(x,y+1,objWall)){
+	sprite_index =sprPlayerA;
+	image_speed = 0;
+	if(sign(vsp) > 0) image_index = 1; else image_index  = 0;
+}else{
+	image_speed = 1;
+	if(hsp == 0){
+		sprite_index =sprPlayer;
+	}else{
+		sprite_index = sprPlayerR;
+	}
+}
+
+if(hsp != 0) image_xscale = sign(hsp);

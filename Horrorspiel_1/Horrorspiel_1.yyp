@@ -34,7 +34,7 @@
             "Key": "04ee3d67-abc0-4718-acde-59d8f989fb6d",
             "Value": {
                 "id": "61a2eae4-a5cb-4d9c-b1b2-4be58df27e22",
-                "resourcePath": "sprites\\spr_player\\spr_player.yy",
+                "resourcePath": "sprites\\sprPlayer\\sprPlayer.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -82,7 +82,15 @@
             "Key": "42380f9c-ecad-4cfb-88ed-35afc471f778",
             "Value": {
                 "id": "f0356f56-e72d-4a74-9d05-f328bb0ad91d",
-                "resourcePath": "sprites\\spr_collision\\spr_collision.yy",
+                "resourcePath": "sprites\\sprCollision\\sprCollision.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4a9680f9-5d70-4ee1-9b74-d619fe483113",
+            "Value": {
+                "id": "36189f1c-c18c-4e95-8873-695ca44e16d3",
+                "resourcePath": "sprites\\sprGun\\sprGun.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -122,7 +130,7 @@
             "Key": "8e8b1ab7-ca53-47fd-8cc9-98e186d3a43e",
             "Value": {
                 "id": "474dfc30-671a-40cc-8f71-412feb6e7460",
-                "resourcePath": "sprites\\spr_playerR\\spr_playerR.yy",
+                "resourcePath": "sprites\\sprPlayerR\\sprPlayerR.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -170,7 +178,7 @@
             "Key": "ad55983e-ceda-4986-8a97-6be272d4b9c6",
             "Value": {
                 "id": "59b95cce-f578-4884-a2c0-798531459353",
-                "resourcePath": "sprites\\spr_playerA\\spr_playerA.yy",
+                "resourcePath": "sprites\\sprPlayerA\\sprPlayerA.yy",
                 "resourceType": "GMSprite"
             }
         },
