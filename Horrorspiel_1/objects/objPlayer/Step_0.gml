@@ -11,7 +11,7 @@ hsp = move * walksp;
 vsp = vsp + grv;
 
 if(place_meeting(x,y + 1,objWall) && key_up ){
-	vsp = -10;
+	vsp = -7;
 }
 
 if(place_meeting(x+hsp,y,objWall)){
