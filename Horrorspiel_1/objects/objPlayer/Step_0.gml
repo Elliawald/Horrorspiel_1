@@ -1,7 +1,15 @@
-key_left = keyboard_check(ord("A"));
-key_right = keyboard_check(ord("D"));
-key_up = keyboard_check_pressed(vk_space);
-//key_down = keyboard_check(vk_down);
+
+if(hascontrol){
+	key_left = keyboard_check(ord("A"));
+	key_right = keyboard_check(ord("D"));
+	key_up = keyboard_check_pressed(vk_space);
+	//key_down = keyboard_check(vk_down);
+}else{
+	key_left = 0;
+	key_right = 0;
+	key_up = 0;
+	//key_down = keyboard_check(vk_down);
+}
 
 //Movement
 var move = key_right - key_left;
