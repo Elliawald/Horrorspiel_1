@@ -397,10 +397,19 @@
                 "resourcePath": "views\\fd3c145a-39bd-46fa-a28e-a45d4ebc0cb2.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "ff642a42-e0f9-437c-bd0c-642ec22e69e0",
+            "Value": {
+                "id": "93b48746-ba93-48fa-9d80-68e6f98c032f",
+                "resourcePath": "scripts\\scrScreenShake\\scrScreenShake.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
-        "e607441c-c956-40ea-b91c-dcc4bee92891"
+        "e607441c-c956-40ea-b91c-dcc4bee92891",
+        "ff642a42-e0f9-437c-bd0c-642ec22e69e0"
     ],
     "tutorial": ""
 }
