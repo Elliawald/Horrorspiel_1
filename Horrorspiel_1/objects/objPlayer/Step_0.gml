@@ -58,3 +58,13 @@ if(!place_meeting(x,y+1,objWall)){
 }
 
 if(hsp != 0) image_xscale = sign(hsp);
+
+
+meleedelay = meleedelay - 1;
+if(mouse_check_button(mb_left) && meleedelay < 0){
+	hascontrol = false;
+	meleedelay = 30;
+	with(instance_create_layer(x,y,"Bullets",objSlash)){
+		 image_angle = point_direction(x,y,mouse_x,mouse_y);
+	}
+}

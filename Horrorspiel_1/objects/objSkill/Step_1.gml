@@ -8,7 +8,7 @@ image_angle = point_direction(x,y,mouse_x,mouse_y);
 firingdelay = firingdelay - 1;
 recoil = max(0,recoil-1); //reduce to 0 but dont go over
 
-if(mouse_check_button(mb_left) && firingdelay < 0){
+if(mouse_check_button(mb_right) && firingdelay < 0){
 	recoil = 4;
 	scrScreenShake(2, 10);
 	firingdelay = 10;
